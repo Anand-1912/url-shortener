@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2CC6025A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{2AD26FC1-CBDC-458A-821D-30A35F4E3E11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLShortener.Api", "src\URLShortener.Api\URLShortener.Api.csproj", "{0A6FCBF9-112E-41D9-B814-E5A18472D4F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "URLShortener.Api", "src\URLShortener.Api\URLShortener.Api.csproj", "{0A6FCBF9-112E-41D9-B814-E5A18472D4F0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "containers", "containers", "{541A7431-D333-4098-A28E-8523234AD018}"
 	ProjectSection(SolutionItems) = preProject
-		containers\docker-compose-sql-server.yaml = containers\docker-compose-sql-server.yaml
+		containers\docker-compose-urlshortener.yaml = containers\docker-compose-urlshortener.yaml
 	EndProjectSection
 EndProject
 Global
