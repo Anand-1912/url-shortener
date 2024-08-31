@@ -1,0 +1,13 @@
+services:
+  urlshortener-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: URLShortener.Db
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Strong_password_123!"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlvolume:/var/opt/mssql  
+volumes:
+  sqlvolume:

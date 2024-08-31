@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BEF3DA8A-1307-476B-93B0-39C6D7A011E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2CC6025A-0075-45EE-A758-ECF84E676B39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{2AD26FC1-CBDC-458A-821D-30A35F4E3E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLShortener.Api", "src\URLShortener.Api\URLShortener.Api.csproj", "{0A6FCBF9-112E-41D9-B814-E5A18472D4F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "containers", "containers", "{541A7431-D333-4098-A28E-8523234AD018}"
+	ProjectSection(SolutionItems) = preProject
+		containers\docker-compose-sql-server.yaml = containers\docker-compose-sql-server.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A6FCBF9-112E-41D9-B814-E5A18472D4F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6FCBF9-112E-41D9-B814-E5A18472D4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6FCBF9-112E-41D9-B814-E5A18472D4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6FCBF9-112E-41D9-B814-E5A18472D4F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A6FCBF9-112E-41D9-B814-E5A18472D4F0} = {BEF3DA8A-1307-476B-93B0-39C6D7A011E4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4E2993E-395C-4784-BCA3-A670480C9CDA}
+	EndGlobalSection
+EndGlobal
