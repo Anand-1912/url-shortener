@@ -16,12 +16,9 @@ builder.Services.AddScoped<UrlShorteningService>();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-    app.ApplyMigrations();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
+app.ApplyMigrations();
 
 app.MapPost("api/shorten", async
     (
